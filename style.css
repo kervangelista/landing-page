@@ -1,0 +1,62 @@
+*{
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  
+}
+
+li {
+  padding: 8px;
+  font-size: 18px;
+  color: #E5E7EB;
+  
+}
+
+img {
+  height: 75px;
+  width: 75px;
+  transition: transform .7s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.nav.flex-container {
+  height: 75px;
+  margin: 0 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
